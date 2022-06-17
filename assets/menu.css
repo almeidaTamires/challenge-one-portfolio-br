@@ -1,0 +1,31 @@
+/*Sessão Menu*/
+
+section.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 5%;
+}
+
+ ul.menu__list {
+    display: flex;
+    width: 100%;
+    margin: 0 1%;
+    justify-content: space-between;
+}
+li.menu__list__item__contato {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.nav__container {
+    display: flex;
+    align-items: center;
+    width: 850px;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+header h3 {
+    margin-left: 10px;
+}
