@@ -1,0 +1,36 @@
+#skills {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+    
+.skills__line {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skills__img img {
+    width: 30px;
+    margin: 10% 0;
+}
+
+.skills__box {
+    background: white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+li.skills__name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}

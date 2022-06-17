@@ -1,0 +1,38 @@
+/*Sessão Hobbies*/
+#hobbies {
+    margin: 5% 0;
+}
+.hobbies__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}    
+
+.hobbies__box {
+    background: white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.hobbies__line {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hobbies__img img {
+    width: 30px;
+    margin: 10% 0;
+}
+
+li.hobbies__name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+} 
