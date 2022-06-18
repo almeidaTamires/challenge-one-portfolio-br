@@ -41,3 +41,35 @@ h3.title__subsection {
 li.title__network__item {
     margin:0 1%;
 }
+
+@media only screen and (max-width: 600px) {
+    .title__div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title__profile {
+    width: 150px;
+    height: 150px;
+    }
+    h2.title__bio{
+    text-align: center;
+    font-size: 2rem;
+    width: 300px;
+    line-height: 30px
+    }
+    .title__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    h3.title__subsection {
+    width: 300px;
+    line-height: 24px;
+    margin: 0;
+    }
+    .title__network{
+    justify-content: center;
+    }
+   
+}

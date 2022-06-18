@@ -8,10 +8,13 @@ section.menu{
 
  ul.menu__list {
     display: flex;
-    width: 100%;
     margin: 0 1%;
     justify-content: space-between;
 }
+li.menu__list__item{
+    margin: 5px;
+}
+
 li.menu__list__item__contato {
     display: flex;
     align-items: center;
@@ -20,12 +23,40 @@ li.menu__list__item__contato {
 .nav__container {
     display: flex;
     align-items: center;
-    width: 850px;
+    width: 100%;
+    justify-content: flex-end;
 }
 header {
     display: flex;
     align-items: center;
+    width: 23%;
 }
 header h3 {
     margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+header {
+    width: 100%;
+    justify-content: center;
+}
+
+.menu {
+    flex-direction: column;
+    margin: 0;
+    }
+ul.menu__list {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.nav__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    letter-spacing: 1px;
+}
+li.menu__list__item {
+    margin: 1%;
+    }
 }

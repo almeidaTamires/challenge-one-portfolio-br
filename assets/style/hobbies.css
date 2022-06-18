@@ -36,3 +36,9 @@ li.hobbies__name{
     font-size: 16px;
     line-height: 19px;
 } 
+
+@media only screen and (max-width: 600px) {
+    .hobbies__box {
+    margin: 2%;
+    }
+}
