@@ -1,6 +1,4 @@
 /*CSS Reset / Normalize*/
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
 
 :root{
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
@@ -38,41 +36,6 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
-
-
-
-
-
-
-
-
-
-/* Experiência Acadêmica*/
-
-section.academic{
-
-}
-
-/* experiência*/
-
-section.experience{
-
-}
-
-/*Contato*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
-}
-
-/* Chegou a hora de se desafiar com a responsividade, 
-utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
 @media (min-width: 768px) {

@@ -1,0 +1,16 @@
+/*footeer*/
+
+section.footer{
+    width: 100%;
+    display: flex;
+    margin: 3% 5%;
+    margin: 1%;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;  
+}
