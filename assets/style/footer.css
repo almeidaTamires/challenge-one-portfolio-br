@@ -14,3 +14,10 @@ section.footer{
     line-height: 19px;
     text-align: center;  
 }
+
+/*tablet*/
+@media only screen and (max-width: 820px){
+    section.footer {
+    justify-content: flex-start;
+    }
+}

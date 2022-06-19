@@ -34,4 +34,30 @@ section.formcontato{
     padding: 10px;
     width: 100%;
 }
-    
+
+    /*tablet*/
+
+@media only screen and (max-width: 820px) {
+    .formcontato__img {
+        display: none;
+    }
+    .formcontato__text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    }
+    .formcontato__subtext {
+    width: 300px;
+    line-height: 16px;
+    }
+   input.formcontato__input {
+        margin: 3%;
+    }
+    textarea.formcontato__textarea {
+        margin: 3%;
+    }
+    .formcontato__form {
+        justify-content: inherit;
+    }
+}

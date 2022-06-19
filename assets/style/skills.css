@@ -45,3 +45,17 @@ li.skills__name {
     margin: 2%;
  }
 }
+
+    /*tablet*/
+    
+@media only screen and (max-width: 820px) {
+    section.skills{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    }
+    .skills__box {
+        margin-bottom: 2%;
+    }
+    
+}

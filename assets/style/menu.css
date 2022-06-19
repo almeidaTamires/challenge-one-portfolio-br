@@ -35,6 +35,9 @@ header h3 {
     margin-left: 10px;
 }
 
+/*medias*/
+
+/*mobile*/
 @media only screen and (max-width: 600px) {
 header {
     width: 100%;
@@ -58,5 +61,11 @@ ul.menu__list {
 }
 li.menu__list__item {
     margin: 1%;
+    }
+}
+/*tablet*/
+@media only screen and (max-width: 820px) {
+    section.menu {
+       display: none;
     }
 }
