@@ -18,6 +18,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    color: #000000;
 }
 .hobbies__line {
     display: flex;
