@@ -1,5 +1,5 @@
 #skills {
-    font-family: 'Raleway';
+    font-family: 'Amatic sc', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -28,7 +28,7 @@
 }
 
 li.skills__name {
-    font-family: 'Raleway';
+    font-family: 'Amatic sc', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -53,6 +53,9 @@ li.skills__name {
     display: flex;
     flex-direction: column;
     width: 350px;
+    }
+    .skills__line {
+        justify-content: flex-start;
     }
     .skills__box {
         margin-bottom: 2%;

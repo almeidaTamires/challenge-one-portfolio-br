@@ -10,7 +10,7 @@ section.about{
 h3.about__title  {
     width: 166px;
     height: 38px;
-    font-family: 'Raleway';
+    font-family: 'Amatic sc', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -18,9 +18,9 @@ h3.about__title  {
 }
 
 p.about__paragraph{
-    font-family: 'Raleway';
+    font-family: 'Amatic sc', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1rem;
     line-height: 19px;
 }
@@ -43,6 +43,9 @@ p.about__paragraph{
 
 
 @media only screen and (max-width: 820px) {
+    section.about {
+        margin: 0;
+    }
     .about__container {
     display: flex;
     flex-direction: column;

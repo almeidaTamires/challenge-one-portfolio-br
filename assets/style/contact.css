@@ -12,7 +12,7 @@ section.formcontato{
 
 .formcontato__title {
     margin: 0;
-    font-family: 'Raleway';
+    font-family: 'Amatic sc', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -22,8 +22,7 @@ section.formcontato{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 450px;
-    justify-content: space-between;
+   justify-content: space-between;
 }
 
 .formcontato__text {
@@ -33,12 +32,22 @@ section.formcontato{
 .formcontato__input {
     padding: 10px;
     width: 100%;
+    margin: 1%;
+}
+.formcontato--esquerda {
+    width: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.formcontato__img {
+    width: 160px;
 }
 
     /*tablet*/
 
 @media only screen and (max-width: 820px) {
-    .formcontato__img {
+    .formcontato--esquerda {
         display: none;
     }
     .formcontato__text {
@@ -53,11 +62,21 @@ section.formcontato{
     }
    input.formcontato__input {
         margin: 3%;
+        width: 260px
     }
     textarea.formcontato__textarea {
         margin: 3%;
+        width: 270px
+
     }
     .formcontato__form {
         justify-content: inherit;
     }
+    .title__contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
 }

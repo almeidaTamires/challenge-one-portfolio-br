@@ -10,20 +10,37 @@
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
+    font-family: 'Amatic sc', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1;
+    color: #ffffff;
 }
 ol, ul,li {
     list-style: none;
 }
 a{
     text-decoration: none;
-    color: var(--cor-de-link);
+    color: #ffffff;
 }
 
+.all {
+    background:linear-gradient( to left, #051937, #1e2c6d, #5439a1, #9a39cc, #eb12eb);
+    background-size: 400% 400%;
+    animation: backgroundTransition 8s ease-in-out infinite;
+}
 
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+}
 /*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
 de utiliza-la. 
 
@@ -36,5 +53,3 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
-
-/*Tablet*/

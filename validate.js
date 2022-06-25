@@ -1,5 +1,4 @@
 //Seu JavaScript de validação aqui
-const btn = document.getElementById("btn");
 
     //validação do campo Nome
     function validateForm() {

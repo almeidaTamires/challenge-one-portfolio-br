@@ -3,7 +3,7 @@
     margin: 3% 0;
 }
 .hobbies__title {
-    font-family: 'Raleway';
+    font-family: 'Amatic sc', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -30,7 +30,7 @@
 }
 
 li.hobbies__name{
-    font-family: 'Raleway';
+    font-family: 'Amatic sc', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -51,9 +51,12 @@ li.hobbies__name{
     section.hobbies {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 444px;
     }
     .hobbies__box {
         margin-bottom: 2%;
+    }
+    .hobbies__line {
+        justify-content: flex-start;
     }
 }
